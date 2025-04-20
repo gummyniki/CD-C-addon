@@ -7,9 +7,9 @@ CD is a collection of libraries that aim to make your experience with C a lot be
 
 ## Features
 ```
-* cd_array - Provides functions for working with arrays
-* cd_string - String manipulation functions like stringStartsWith(), stringContains(), stringReverse() etc.
-* cd_math - Common mathematical functions like sum, average etc.
+ cd_array - Provides functions for working with arrays
+ cd_string - String manipulation functions like stringStartsWith(), stringContains(), stringReverse() etc.
+ cd_math - Common mathematical functions like sum, average etc.
 ```
 
 ## Installation
@@ -44,7 +44,7 @@ Or alternatively, manually add the header (```.h```) and source files (```c```) 
 #include "cd_array.h"
 
 int array[] = {1, 2, 3, 4};
-printf("Max value: %d\n", getMaxInt(array, 4));
+printf("Max value: %d\n", getMaxInt(array, 4)); // outputs 4
 ```
 
 
@@ -54,7 +54,7 @@ printf("Max value: %d\n", getMaxInt(array, 4));
 #include "cd_math.h"
 
 float nums[] = {1.2, 2.3, 3.4};
-printf("Sum: %.2f\n", sumOfFloats(nums, 3));
+printf("Sum: %.2f\n", sumOfFloats(nums, 3)); // outputs 6.9 (1.2 + 2.3 + 3.4)
 ```
 
 
@@ -64,7 +64,7 @@ printf("Sum: %.2f\n", sumOfFloats(nums, 3));
 #include "cd_string.h"
 
 char* reversed = stringReverse("Hello");
-printf("Reversed: %s\n", reversed);
+printf("Reversed: %s\n", reversed); // outputs dlrow olleh (hello world backwards)
 free(reversed);
 ```
 ## ❓ Why CD?
