@@ -9,7 +9,7 @@ float average(float numbers[]);
 int sumOfInts(int ints[]);
 int sumOfFloats(float floats[]);
 
-char* intToChar(int integer);
+
 
 
 

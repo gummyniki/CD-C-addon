@@ -9,7 +9,11 @@ int main() {
     
     char string[] = "hello world";
 
-    bool doesItContain = stringContains(string, "hell");
+    char* reversedString = stringReverse(string);
+
+    printf("%s\n", reversedString);
+
+    free(reversedString);
 
 
     return 0;

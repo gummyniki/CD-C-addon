@@ -22,4 +22,6 @@ bool stringStartsWith(char string[], char prefix[]);
 
 bool stringContains(char string[], char target[]);
 
+char* intToChar(int integer);
+
 #endif // CD_STRING_H

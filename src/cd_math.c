@@ -54,11 +54,3 @@ float average(float numbers[]) {
     return sum / size;
 }
 
-char* intToChar(int integer) {
-    char* string;
-    string = malloc(20);
-
-    sprintf(string, "%d", integer);
-    
-    return string;
-}

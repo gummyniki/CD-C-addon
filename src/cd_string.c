@@ -154,3 +154,12 @@ bool stringContains(char string[], char target[]) {
         return false;
     }
 }
+
+char* intToChar(int integer) {
+    char* string;
+    string = malloc(20);
+
+    sprintf(string, "%d", integer);
+    
+    return string;
+}
