@@ -25,7 +25,7 @@ Or alternatively, manually add the headers and source files to your project
 #include "path/to/cd_string.h"
 ```
 
-### Use The ```main.c``` file in the project that is already configured, or manually configure the libraries
+### Use The ```main.c``` file in the project that is already configured with an example, or manually configure the libraries
 
 
 
