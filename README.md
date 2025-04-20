@@ -61,7 +61,7 @@ char* reversed = stringReverse("Hello");
 printf("Reversed: %s\n", reversed);
 free(reversed);
 ```
-##❓ Why CD?
+## ❓ Why CD?
 C is powerful, but it doesn’t come with many built-in utilities that modern developers are used to. CD exists to bridge that gap.
 
 Whether you’re just learning C or you’re building something lightweight without external dependencies, CD gives you:
@@ -77,7 +77,7 @@ CD is for those who love C... but wouldn't mind it being just a bit nicer to wor
 
 
 
-##🛣️ Roadmap
+## 🛣️ Roadmap
 Here’s what’s planned for future updates:
 
  More dynamic array utilities (insert, remove, resize, etc.)
