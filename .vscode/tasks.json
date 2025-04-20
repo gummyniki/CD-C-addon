@@ -11,6 +11,7 @@
                 "cd_array.c",
                 "cd_math.c",
                 "cd_string.c",
+                "cd_file.c",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
                 

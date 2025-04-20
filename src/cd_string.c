@@ -163,3 +163,7 @@ char* intToChar(int integer) {
     
     return string;
 }
+
+int stringToInt(char string[]) {
+    return atoi(string);
+}

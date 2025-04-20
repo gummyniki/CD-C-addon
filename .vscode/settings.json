@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "cd_array.h": "c"
+        "cd_array.h": "c",
+        "stdbool.h": "c"
     }
 }
