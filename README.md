@@ -1,3 +1,7 @@
+![GitHub stars](https://img.shields.io/github/stars/gummyniki/CD-C-Addon?style=social)
+![License](https://img.shields.io/github/license/gummyniki/CD-C-Addon)
+
+
 # CD (C-DEVELOPMENT)
 CD is a collection of libraries that aim to make your experience with C a lot better by providing basic functionalities like: dynamic arrays, string manipulation, math functions and more.
 
@@ -19,6 +23,8 @@ Or alternatively, manually add the header (```.h```) and source files (```c```) 
 
 
 ### Include the required headers
+
+
 ```C
 #include "path/to/cd_array.h"
 #include "path/to/cd_math.h"
