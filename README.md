@@ -80,17 +80,17 @@ CD is for those who love C... but wouldn't mind it being just a bit nicer to wor
 ## 🛣️ Roadmap
 Here’s what’s planned for future updates:
 
- More dynamic array utilities (insert, remove, resize, etc.)
+ * More dynamic array utilities (insert, remove, resize, etc.)
 
- Sorting algorithms for arrays (bubble sort, quicksort, etc.)
+ * Sorting algorithms for arrays (bubble sort, quicksort, etc.)
 
- More string functions (like stringEndsWith, stringIndexOf, etc.)
+ * More string functions (like stringEndsWith, stringIndexOf, etc.)
 
- File utilities (read/write helpers, file existence checks)
+ * File utilities (read/write helpers, file existence checks)
 
- Date/time helpers
+ * Date/time helpers
 
- Optional "extras" module with higher-level tools (maybe even custom memory tracking or logging)
+ * Optional "extras" module with higher-level tools (maybe even custom memory tracking or logging)
 
 
 
