@@ -15,7 +15,7 @@ To use CD in your project, simply clone the repository and include the necessary
 git clone https://github.com/gummyniki/CD-C-Addon.git
 ```
 
-Or alternatively, manually add the headers and source files to your project
+Or alternatively, manually add the header (```.h```) and source files (```c```) to your project
 
 
 ### Include the required headers
@@ -25,7 +25,7 @@ Or alternatively, manually add the headers and source files to your project
 #include "path/to/cd_string.h"
 ```
 
-### Use The ```main.c``` file in the project that is already configured with an example, or manually configure the libraries
+### You can also use the provided main.c file, which includes a basic example and is already configured.
 
 
 
@@ -61,8 +61,36 @@ char* reversed = stringReverse("Hello");
 printf("Reversed: %s\n", reversed);
 free(reversed);
 ```
+##❓ Why CD?
+C is powerful, but it doesn’t come with many built-in utilities that modern developers are used to. CD exists to bridge that gap.
+
+Whether you’re just learning C or you’re building something lightweight without external dependencies, CD gives you:
+
+Handy utilities without bloated libraries
+
+Clean, beginner-friendly code
+
+The comfort of high-level features in low-level land
+
+CD is for those who love C... but wouldn't mind it being just a bit nicer to work with.
 
 
+
+
+##🛣️ Roadmap
+Here’s what’s planned for future updates:
+
+ More dynamic array utilities (insert, remove, resize, etc.)
+
+ Sorting algorithms for arrays (bubble sort, quicksort, etc.)
+
+ More string functions (like stringEndsWith, stringIndexOf, etc.)
+
+ File utilities (read/write helpers, file existence checks)
+
+ Date/time helpers
+
+ Optional "extras" module with higher-level tools (maybe even custom memory tracking or logging)
 
 
 
